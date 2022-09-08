@@ -174,7 +174,7 @@ cyan = Fore.LIGHTCYAN_EX
 
 
  # limpiar pantalla
- 
+
 def clearConsole(): return os.system('cls' if os.name in (
     'nt', 'dos') else 'clear') 
 
